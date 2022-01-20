@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Service {
     
-    private final boolean DEBUG_MODE = false;
+    private final boolean DEBUG_MODE = true;
     private final long SERVICE_INTERLVAL = 1000;
     
     private ServiceDAO dao = new ServiceDAO();
